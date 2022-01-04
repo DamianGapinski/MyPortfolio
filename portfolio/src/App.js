@@ -1,19 +1,13 @@
 import React from 'react';
-import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
-const Header = () =>{
-  return(
-    <header>
-        <nav>
-            <div className='box'>
-              <ul>
-                <li><Link to='#'>CV</Link></li>
-                <li><Link to='#'>Moje projekty</Link></li>
-              </ul>
-            </div>
-        </nav>
-    </header>
-  )
-  
+import Nav from './Nav';
+import Header from './Header';
+const App = () =>{
+    return(
+        <>
+            <Nav/>
+            <Header/>
+        </>
+    )
 }
 
-export default Header;
+export default App;

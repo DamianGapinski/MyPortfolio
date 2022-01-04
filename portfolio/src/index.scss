@@ -1,0 +1,25 @@
+@media only screen and (max-width: 600px) {
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    nav{
+        width: 100vw;
+        height: 50px;
+        background-color: red;
+        color: whitesmoke;
+        font-size: 24px;
+    }
+    ul{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+        list-style: none;
+    }
+  }
