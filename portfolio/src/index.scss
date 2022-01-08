@@ -6,21 +6,20 @@
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
     body{
-        height: 100vh;
+        height: 100%;
     }
     #root{
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
         height: 100%;
     }
     nav{
         width: 100vw;
         height: 50px;
-        background-color: red;
-        color: whitesmoke;
-        font-size: 24px;
+        background-color: black;
+        font-size: 18px;
     }
     ul{
         height: 100%;
@@ -33,18 +32,19 @@
         list-style: none;
     }
     header{
+        padding-top: 50px;
         width: 90vw;
-        height: 80vh;
+        height: 1200px;
         display: flex;
         flex-direction: column;
         text-align: center;
-        justify-content: space-around;
         align-items: center;
+        justify-content: space-between;
         border-radius: 15px;
-        
+        animation: moveAnim ease-in .8s forwards;
     }
     a{
-        color: black;
+        color:whitesmoke;
         text-decoration: none;
     }
     img{
@@ -52,4 +52,14 @@
         height: 90%;
         border-radius: 15px;
     }
-  }
+
+    // ** Animation Header **
+
+    @keyframes moveAnim{
+        from {transform: translateX(-600px)}
+        to {transform: translateX(0px)}
+    }
+
+}
+
+  

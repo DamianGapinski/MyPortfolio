@@ -5,9 +5,9 @@ const Nav = () =>{
   return(
     <nav>
       <ul>
-        <Link to='/'>O mnie</Link>
-        <Link to='/myProject'>Moje projekty</Link>
-        <Link to='/myCV'>CV</Link>
+        <Link to='/'>Damian Gapiński</Link>
+        <Link to='/myProject'>My projects</Link>
+        <Link to='/mySkills'>Skills</Link>
       </ul>
     </nav>
   )
